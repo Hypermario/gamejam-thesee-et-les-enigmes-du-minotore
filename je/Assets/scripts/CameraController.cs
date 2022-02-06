@@ -21,19 +21,26 @@ public class CameraController : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.Alpha1))
-		{
-			curPlayer = Player1;
-			transform.position = new Vector3(curPlayer.position.x, curPlayer.position.y, -10f);
-			maskController.Teleport(curPlayer);
-		}
-		else if (Input.GetKeyDown(KeyCode.Alpha2))
-		{
-			curPlayer = Player2;
-			transform.position = new Vector3(curPlayer.position.x, curPlayer.position.y, -10);
-			maskController.Teleport(curPlayer);
-		}
+		// if (Input.GetButtonDown("Change"))
+		// {
+		// 	curPlayer = Player1;
+		// 	transform.position = new Vector3(curPlayer.position.x, curPlayer.position.y, -10f);
+		// 	maskController.Teleport(curPlayer);
+		// }
+		// else if (Input.GetKeyDown(KeyCode.Alpha2))
+		// {
+		// 	curPlayer = Player2;
+		// 	transform.position = new Vector3(curPlayer.position.x, curPlayer.position.y, -10);
+		// 	maskController.Teleport(curPlayer);
+		// }
 		cameraPos = new Vector3(curPlayer.position.x, curPlayer.position.y, -10f);
 		transform.position = Vector3.SmoothDamp(gameObject.transform.position, cameraPos, ref velocity, SmoothSpeed);
+	}
+
+	public void ChangePlayer(Transform newPlayer)
+	{
+		curPlayer = newPlayer;
+		transform.position = new Vector3(curPlayer.position.x, curPlayer.position.y, -10f);
+		maskController.Teleport(curPlayer);
 	}
 }

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ariane
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7d23fd8a85b9e4551bd553c42d91454c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: fd5a9e010c0f04548ba2d2b510dd3edd, type: 3}
+  - {fileID: 21300000, guid: 4542d2b4a86ba486c951673383e18497, type: 3}
+  - {fileID: 21300000, guid: 6702a455f49754249aa4113165a2f627, type: 3}
+  - {fileID: 21300000, guid: 6c8c7ef61fc174f7381efaa63faa929f, type: 3}
+  - {fileID: 21300000, guid: 8f186cf71bb27489596f54aa99ed004f, type: 3}
+  - {fileID: 21300000, guid: 5fe324682b74f4e96b45f1aa1701e7b1, type: 3}
+  - {fileID: 21300000, guid: 143fd0d8fdcdc4806a388edfd18e22d7, type: 3}
+  - {fileID: 21300000, guid: 1acb369a186c642c7a8d3a6715105f01, type: 3}
+  - {fileID: 21300000, guid: efc85c0b9d5174d2c942fce35c97ea34, type: 3}
+  - {fileID: 21300000, guid: 5cc9e49b7d30c40948608ebb554e8968, type: 3}
+  - {fileID: 21300000, guid: b0d358fb0596d46aa830553f83953ec6, type: 3}
+  - {fileID: 21300000, guid: f203c4ed4499d4b7ca46abe62c9cc903, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - final-0010
+  - final-0003
+  - final-0005
+  - final-0007
+  - final-0008
+  - final-0006
+  - final-0002
+  - final-0011
+  - final-0009
+  - final-0004
+  - final-0001
+  - final-0012
+  m_RenderDataMap: {}
+  m_Tag: Ariane
+  m_IsVariant: 0

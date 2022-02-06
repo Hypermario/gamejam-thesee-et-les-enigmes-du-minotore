@@ -6,10 +6,13 @@ public class TriggerMort : MonoBehaviour
 {
 	public PlayerController1		player;
 	public Transform			transform;
+
+	private AudioSource	res;
     // Start is called before the first frame update
     void Start()
     {
         
+		res = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,5 +24,6 @@ public class TriggerMort : MonoBehaviour
 	{
 		player.SendMessage("Tp", transform);
 		print("TRIGGER TP");
+			res.Play();
 	}
 }
