@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 2022_02_05_0r3_Kleki copie
+  m_Name: 2022_02_06_0kk_Kleki
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: f49697136f0bc44c1958ea8bb070625f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: ed1efbc8f83f6477e85e37250cc5c472, type: 3}
+  m_Color: {r: 0.6039216, g: 0.6039216, b: 0.6039216, a: 1}
   m_Transform:
     e00: 1
     e01: 0

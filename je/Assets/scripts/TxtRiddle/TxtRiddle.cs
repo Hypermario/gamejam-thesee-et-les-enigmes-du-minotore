@@ -5,16 +5,17 @@ using UnityEngine;
 public class TxtRiddle : MonoBehaviour
 {
     public PressurePad goodPad;
+	public GameObject	door;
 
     public void PressurePadActivate(PressurePad curPad)
     {
         if(curPad == goodPad)
         {
-            Debug.Log("Yes");
+            door.SetActive(false);
         }
         else
         {
-            Debug.Log("Nope");
+            door.SetActive(true);
         }
     }
 }

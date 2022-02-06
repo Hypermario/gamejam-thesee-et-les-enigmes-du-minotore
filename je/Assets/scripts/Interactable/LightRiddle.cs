@@ -6,10 +6,13 @@ public class LightRiddle : MonoBehaviour
 {
 	LightInteractable[] linkedLights;
 	public bool riddleFinished;
+	public GameObject	door;
     // Start is called before the first frame update
     void Start()
     {
         linkedLights = Object.FindObjectsOfType<LightInteractable>();
+
+            door.SetActive(true);
     }
 
     // Update is called once per frame
@@ -24,7 +27,8 @@ public class LightRiddle : MonoBehaviour
 			}
 		}
 		riddleFinished = true;
-		Debug.Log("Finished");
+		
+    	door.SetActive(false);
 
 
     }
