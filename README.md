@@ -9,4 +9,5 @@ Controles :
   - A : changer de personnage
   - E : interagir
 
+Bon jeu !
 ![Thesee](https://user-images.githubusercontent.com/26939325/155190322-03ee8dfa-702b-4ba6-8633-df7be31e1bb3.png)
